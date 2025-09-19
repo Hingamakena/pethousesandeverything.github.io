@@ -11,11 +11,14 @@ body {
 	background-color: white;
 }
 header {
+	display: flex;
 	height: 10%;
 	color: blue;
 	font-size: 35px;
 	background-color: #F7EFED;
 	width: 100vw;
+	align-items: center;
+	justify-content: center;
 }
 main {
 	background-color: #A6331C;
