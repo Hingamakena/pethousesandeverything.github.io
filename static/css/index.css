@@ -14,17 +14,39 @@ header {
 	color: blue;
 	font-size: 35px;
 	background-color: grey;
+	width: 100vw;
 }
 main {
 	background-color: #A6331C;
 	flex: 1;
+	width: 100vw;
 }
-#main_outer_div {
+#outer_main_div {
 	flex: 1;
 	display: flex;
+	flex-direction: column;
 	background-color: #4D2822;
+	gap: 10px;
+
+}
+#upper_two_divs {
+	height: 80%;
+	display: flex;
+	gap: 10px;
 }
 
+#image_of_commodity,
+#available_clip_of_same {
+	flex: 1;
+	background-color: white;
+	padding: 10px;
+}
+#amazon_link_to_commodity {
+	height: 20%;
+	width: 100%;
+	background-color: #c0c0c0;
+	padding: 10px;
+}
 footer {
 
 	background-color: white;
