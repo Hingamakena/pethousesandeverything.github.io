@@ -13,11 +13,20 @@ body {
 header {
 	color: blue;
 	font-size: 35px;
+	background-color: grey;
 }
 main {
+	background-color: #A6331C;
 	flex: 1;
 }
+#main_outer_div {
+	flex: 1;
+	display: flex;
+	background-color: #4D2822;
+}
+
 footer {
+
 	background-color: white;
 	color: black;
 }
