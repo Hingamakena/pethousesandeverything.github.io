@@ -32,13 +32,13 @@ main {
 
 }
 #upper_two_divs {
-	flex: 7;
+	flex: 8;
 	display: flex;
 	gap: 10px;
 }
 
 #link_to_commodity {
-	flex: 3;
+	flex: 2;
 	width: 100%;
 	background-color: #c0c0c0;
 	padding: 10px;
